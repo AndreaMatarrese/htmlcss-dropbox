@@ -12,7 +12,12 @@ img {
   }
 
   body {
-	margin-top: 6rem; 
+	margin-top: 4.5rem; 
+}
+
+.txt{
+    font-size: 1rem;
+    line-height: 1.7em;
 }
 /* titoli */
 h1{
@@ -39,12 +44,12 @@ header{
     align-items: center;
 }
 
-ul{
+ul nav{
     display: flex;
     align-items: center;
     column-gap: 20px;
 }
-li{
+li nav{
     list-style: none;
 }
 
@@ -55,7 +60,7 @@ li{
 
 /* STILE bottoni */
 
-.btn-h{
+.btn-h, .btn{
     padding-top: 0.5rem;
     padding-bottom: 0.5rem;
     padding-left: 0.4rem;
@@ -63,13 +68,15 @@ li{
     background-color: #0160FF;
     color: #fff;
     border:5px solid #0160FF;
+    margin-top: 1rem;
+    margin-bottom: 1rem;
 }
 
 a {
     font-style: none;
 }
 
-.btn-h:hover{
+.btn-h,.btn:hover{
     padding-top: 0.5rem;
     padding-bottom: 0.5rem;
     padding-left: 0.4rem;
@@ -81,3 +88,58 @@ a {
 
 /* sezione 1 */
 
+.sezione1{
+    background-color: #a0c1faf2;
+    padding: 2rem;
+}
+
+.sezione1 .container{
+    max-width: 1200px;
+    margin: auto;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.testo{
+    max-width: 30%;
+}
+
+.immagine{
+    max-width: 70%;
+    flex: 1 1 auto ;
+}
+
+/* sezione 2 */
+
+.sezione2 .container{
+
+    max-width: 900px;
+    margin: 4rem auto;
+}
+
+input #mensile.radio{
+    border: 35px solid #ededed;
+}
+
+.sezione2 .titolo, .input{
+
+    margin-bottom: 2rem;
+}
+
+
+.tab{
+    display: flex;
+    justify-content: space-evenly;
+    
+    
+}
+.card{
+    width: 33%;
+    margin: auto;
+    border: 2px solid #ededed;
+}
+
+.htab{
+    border: 2px solid #ededed;
+    text-align: center;
+}
