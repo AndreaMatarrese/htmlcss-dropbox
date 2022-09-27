@@ -424,6 +424,10 @@ a{
 }
 
 /********* sezione 8 *********/
+.sezione8{
+    padding-top: 5rem;
+    padding-bottom: 5rem;
+}
 .sezione8 .div8{
     display: flex;
     justify-content: space-between;
@@ -434,4 +438,45 @@ a{
 
 .div8:last-of-type{
     border-bottom: 2px solid #b2b2b2;
+}
+
+/********* Footer  *********/
+footer{
+    background-color: #000000;
+    padding-top: 5rem;
+    padding-bottom:3rem;
+}
+
+footer .container{
+    max-width: 1000px;
+    margin:auto;
+}
+
+.fl a{
+    text-decoration: none;
+    list-style: none;
+    color: #fff;
+    font-size: 0.9rem;
+    line-height: 1.7em;
+}
+
+.df h4{
+    color: #fff;
+    margin-bottom: 2rem;
+    font-size: 1.4rem;
+}
+
+.df{
+    display: flex;
+    justify-content: space-between;
+}
+
+.if{
+    color: #a3a3a3;
+    padding-top:2rem;
+    padding-bottom:2rem;
+    border-top: 2px solid #a3a3a3;
+    display: inline flow-root list-item;
+    list-style: none;
+    
 }
