@@ -8,7 +8,7 @@
 /* globali */
 img {
     width: 100%;
-    height: auto;    
+    
   }
 
   body {
@@ -82,13 +82,10 @@ a{
     text-decoration: underline;
 }
 
+.link-menu:last-of-type{
+    color: #fff;
+}
 
-
-
-/* .menu a{
-    text-decoration: none;
-    color: #000;
-} */
 
 /* STILE bottoni */
 
@@ -147,11 +144,7 @@ a{
 }
 
 .sezione1 .container{
-    max-width: 1000px;
-    margin-top: 2rem;
-    margin-left:auto;
-    margin-right: auto;
-    margin-bottom: 0%;
+    max-width: 1000;
     display: flex;
     flex-wrap: wrap;
 }
@@ -170,8 +163,7 @@ a{
 
 .freccia{
     width: 2rem;
-    position: relative;
-    top: 2%;
+   
 }
 
 
@@ -305,8 +297,7 @@ a{
 
 .sezione3{
     display: flex;
-    justify-content: center;
-    align-items: center;
+    
 }
 
 .s3-img{
@@ -322,6 +313,7 @@ a{
 
 .s3{
     width: 30%;
+    padding-top: 4rem;
 }
 
 .bpartner{
