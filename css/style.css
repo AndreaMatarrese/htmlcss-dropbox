@@ -26,6 +26,14 @@ h1{
     margin-bottom: 1rem;
 }
 
+h2{
+    font-size: 2rem;
+}
+
+h4{
+    font-size: 1.5rem;
+}
+
 /* menu header */
 
 header{
@@ -163,14 +171,12 @@ a{
 
 
 /* sezione 2 */
-.sezione2 .container{
+ .container{
 
     max-width: 900px;
     margin: 4rem auto;
 }
-.tit{
-    font-size: 2.5rem;
-}
+
 
 .input{
     
@@ -319,4 +325,10 @@ a{
 .bpartner{
     padding: 1rem;
     border-radius: 0;
+}
+
+/* sezione 4 */
+
+.sezione4 .card{
+    border: 0px solid #ededed;
 }
